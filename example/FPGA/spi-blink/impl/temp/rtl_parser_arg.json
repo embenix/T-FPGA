@@ -1,19 +1,20 @@
 {
+ "Device" : "GW1NSR-4C",
  "Files" : [
   {
-   "Path" : "D:/File/Micky/Github/T-FPGA/example/FPGA/spi-blink/src/gowin_osc/gowin_osc.v",
+   "Path" : "C:/workspace/00_projects_git/T-FPGA/example/FPGA/spi-blink/src/gowin_osc/gowin_osc.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/File/Micky/Github/T-FPGA/example/FPGA/spi-blink/src/gowin_pllvr/gowin_pllvr.v",
+   "Path" : "C:/workspace/00_projects_git/T-FPGA/example/FPGA/spi-blink/src/gowin_pllvr/gowin_pllvr.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/File/Micky/Github/T-FPGA/example/FPGA/spi-blink/src/spi-slave.v",
+   "Path" : "C:/workspace/00_projects_git/T-FPGA/example/FPGA/spi-blink/src/spi-slave.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/File/Micky/Github/T-FPGA/example/FPGA/spi-blink/src/spi-top.v",
+   "Path" : "C:/workspace/00_projects_git/T-FPGA/example/FPGA/spi-blink/src/spi-top.v",
    "Type" : "verilog"
   }
  ],
@@ -21,7 +22,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "D:/File/Micky/Github/T-FPGA/example/FPGA/spi-blink/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/workspace/00_projects_git/T-FPGA/example/FPGA/spi-blink/impl/temp/rtl_parser.result",
  "Top" : "spi_top",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

@@ -1,7 +1,8 @@
 {
+ "Device" : "GW1NSR-4C",
  "Files" : [
   {
-   "Path" : "D:/File/Micky/Github/T-FPGA/example/FPGA/led/src/led.v",
+   "Path" : "C:/workspace/00_projects_git/T-FPGA/example/FPGA/led/src/led.v",
    "Type" : "verilog"
   }
  ],
@@ -9,7 +10,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "D:/File/Micky/Github/T-FPGA/example/FPGA/led/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/workspace/00_projects_git/T-FPGA/example/FPGA/led/impl/temp/rtl_parser.result",
  "Top" : "led",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

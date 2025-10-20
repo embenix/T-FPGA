@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="spi_top" Register="9" Alu="7" Lut="3">
-    <SubModule name="osc"/>
-    <SubModule name="pll"/>
-    <SubModule name="spi_slaver1" Register="28" Lut="24"/>
+<Module name="spi_top" Register="9" Alu="7" Lut="3" T_Register="37(9)" T_Alu="7(7)" T_Lut="27(3)">
+ <SubModule name="osc"/>
+ <SubModule name="pll"/>
+ <SubModule name="spi_slaver1" Register="28" Lut="24" T_Register="28(28)" T_Lut="24(24)"/>
 </Module>

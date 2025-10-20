@@ -3,6 +3,7 @@
 <head>
 <title>Timing Analysis Report</title>
 <style type="text/css">
+@import url(../temp/style.css);
 body { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
 div#content { width: 100%; margin: }
 hr { margin-top: 30px; margin-bottom: 30px; }
@@ -26,19 +27,19 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Design File</td>
-<td>D:\Users\19021\Documents\fpga_project\impl\gwsynthesis\fpga_project.vg</td>
+<td>C:\workspace\00_projects_git\T-FPGA\example\FPGA\led\impl\gwsynthesis\fpga_project.vg</td>
 </tr>
 <tr>
 <td class="label">Physical Constraints File</td>
-<td>D:\Users\19021\Documents\fpga_project\src\fpga_project.cst</td>
+<td>C:\workspace\00_projects_git\T-FPGA\example\FPGA\led\src\fpga_project.cst</td>
 </tr>
 <tr>
 <td class="label">Timing Constraint File</td>
 <td>---</td>
 </tr>
 <tr>
-<td class="label">Version</td>
-<td>V1.9.8.01</td>
+<td class="label">Tool Version</td>
+<td>V1.9.12 (64-bit)</td>
 </tr>
 <tr>
 <td class="label">Part Number</td>
@@ -50,12 +51,12 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Tue Feb 21 14:47:52 2023
+<td>Tue Oct 21 00:04:34 2025
 </td>
 </tr>
 <tr>
 <td class="label">Legal Announcement</td>
-<td>Copyright (C)2014-2021 Gowin Semiconductor Corporation. All rights reserved.</td>
+<td>Copyright (C)2014-2025 Gowin Semiconductor Corporation. All rights reserved.</td>
 </tr>
 </table>
 <h1><a name="Summary">Timing Summaries</a></h1>
@@ -63,11 +64,11 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <table class="summary_table">
 <tr>
 <td class="label">Setup Delay Model</td>
-<td>Slow 1.14V 85C</td>
+<td>Slow 1.14V 85C C6/I5</td>
 </tr>
 <tr>
 <td class="label">Hold Delay Model</td>
-<td>Fast 1.26V 0C</td>
+<td>Fast 1.26V 0C C6/I5</td>
 </tr>
 <tr>
 <td class="label">Numbers of Paths Analyzed</td>
@@ -93,6 +94,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <h2><a name="Clock_Report">Clock Summary:</a></h2>
 <table class="detail_table">
 <tr>
+<th class="label">NO.</th>
 <th class="label">Clock Name</th>
 <th class="label">Type</th>
 <th class="label">Period</th>
@@ -104,6 +106,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <th class="label">Objects</th>
 </tr>
 <tr>
+<td>1</td>
 <td>clk</td>
 <td>Base</td>
 <td>20.000</td>
@@ -229,19 +232,19 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <h4>Report Command:report_min_pulse_width -nworst 10 -detail</h4>
 <tr>
 <td>1</td>
-<td>7.850</td>
-<td>9.100</td>
+<td>6.520</td>
+<td>7.770</td>
 <td>1.250</td>
-<td>Low Pulse Width</td>
+<td>High Pulse Width</td>
 <td>clk</td>
 <td>led_s2</td>
 </tr>
 <tr>
 <td>2</td>
-<td>8.475</td>
-<td>9.725</td>
+<td>8.501</td>
+<td>9.751</td>
 <td>1.250</td>
-<td>High Pulse Width</td>
+<td>Low Pulse Width</td>
 <td>clk</td>
 <td>led_s2</td>
 </tr>
@@ -258,11 +261,11 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>3.435</td>
+<td>6.683</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
-<td>21.943</td>
+<td>25.191</td>
 </tr>
 <tr>
 <td class="label">From</td>
@@ -320,8 +323,8 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/I</td>
 </tr>
 <tr>
-<td>0.982</td>
-<td>0.982</td>
+<td>4.230</td>
+<td>4.230</td>
 <td>tINS</td>
 <td>RR</td>
 <td>1</td>
@@ -329,7 +332,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
-<td>2.343</td>
+<td>5.591</td>
 <td>1.361</td>
 <td>tNET</td>
 <td>RR</td>
@@ -338,7 +341,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>led_s2/CLK</td>
 </tr>
 <tr>
-<td>2.801</td>
+<td>6.049</td>
 <td>0.458</td>
 <td>tC2Q</td>
 <td>RF</td>
@@ -347,7 +350,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td style=" font-weight:bold;">led_s2/Q</td>
 </tr>
 <tr>
-<td>2.809</td>
+<td>6.057</td>
 <td>0.008</td>
 <td>tNET</td>
 <td>FF</td>
@@ -356,7 +359,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>n5_s2/I0</td>
 </tr>
 <tr>
-<td>3.435</td>
+<td>6.683</td>
 <td>0.626</td>
 <td>tINS</td>
 <td>FF</td>
@@ -365,7 +368,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td style=" background: #97FFFF;">n5_s2/F</td>
 </tr>
 <tr>
-<td>3.435</td>
+<td>6.683</td>
 <td>0.000</td>
 <td>tNET</td>
 <td>FF</td>
@@ -413,8 +416,8 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/I</td>
 </tr>
 <tr>
-<td>20.982</td>
-<td>0.982</td>
+<td>24.230</td>
+<td>4.230</td>
 <td>tINS</td>
 <td>RR</td>
 <td>1</td>
@@ -422,7 +425,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
-<td>22.343</td>
+<td>25.591</td>
 <td>1.361</td>
 <td>tNET</td>
 <td>RR</td>
@@ -431,7 +434,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>led_s2/CLK</td>
 </tr>
 <tr>
-<td>21.943</td>
+<td>25.191</td>
 <td>-0.400</td>
 <td>tSu</td>
 <td></td>
@@ -456,7 +459,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay</td>
-<td>cell: 0.982, 41.911%; route: 1.361, 58.089%</td>
+<td>cell: 4.230, 75.658%; route: 1.361, 24.342%</td>
 </tr>
 <tr>
 <td class="label">Arrival Data Path Delay</td>
@@ -464,7 +467,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Required Clock Path Delay</td>
-<td>cell: 0.982, 41.911%; route: 1.361, 58.089%</td>
+<td>cell: 4.230, 75.658%; route: 1.361, 24.342%</td>
 </tr>
 </table>
 <h3><a name="Hold_Analysis">Hold Analysis Report</a></h3>
@@ -478,11 +481,11 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>2.518</td>
+<td>4.800</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
-<td>1.810</td>
+<td>4.092</td>
 </tr>
 <tr>
 <td class="label">From</td>
@@ -540,8 +543,8 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/I</td>
 </tr>
 <tr>
-<td>0.844</td>
-<td>0.844</td>
+<td>3.126</td>
+<td>3.126</td>
 <td>tINS</td>
 <td>RR</td>
 <td>1</td>
@@ -549,7 +552,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
-<td>1.810</td>
+<td>4.092</td>
 <td>0.966</td>
 <td>tNET</td>
 <td>RR</td>
@@ -558,7 +561,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>led_s2/CLK</td>
 </tr>
 <tr>
-<td>2.144</td>
+<td>4.426</td>
 <td>0.333</td>
 <td>tC2Q</td>
 <td>RR</td>
@@ -567,7 +570,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td style=" font-weight:bold;">led_s2/Q</td>
 </tr>
 <tr>
-<td>2.146</td>
+<td>4.428</td>
 <td>0.002</td>
 <td>tNET</td>
 <td>RR</td>
@@ -576,7 +579,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>n5_s2/I0</td>
 </tr>
 <tr>
-<td>2.518</td>
+<td>4.800</td>
 <td>0.372</td>
 <td>tINS</td>
 <td>RF</td>
@@ -585,7 +588,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td style=" background: #97FFFF;">n5_s2/F</td>
 </tr>
 <tr>
-<td>2.518</td>
+<td>4.800</td>
 <td>0.000</td>
 <td>tNET</td>
 <td>FF</td>
@@ -633,8 +636,8 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/I</td>
 </tr>
 <tr>
-<td>0.844</td>
-<td>0.844</td>
+<td>3.126</td>
+<td>3.126</td>
 <td>tINS</td>
 <td>RR</td>
 <td>1</td>
@@ -642,7 +645,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
-<td>1.810</td>
+<td>4.092</td>
 <td>0.966</td>
 <td>tNET</td>
 <td>RR</td>
@@ -651,7 +654,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>led_s2/CLK</td>
 </tr>
 <tr>
-<td>1.810</td>
+<td>4.092</td>
 <td>0.000</td>
 <td>tHld</td>
 <td></td>
@@ -676,7 +679,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay</td>
-<td>cell: 0.844, 46.642%; route: 0.966, 53.358%</td>
+<td>cell: 3.126, 76.396%; route: 0.966, 23.604%</td>
 </tr>
 <tr>
 <td class="label">Arrival Data Path Delay</td>
@@ -684,7 +687,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Required Clock Path Delay</td>
-<td>cell: 0.844, 46.642%; route: 0.966, 53.358%</td>
+<td>cell: 3.126, 76.396%; route: 0.966, 23.604%</td>
 </tr>
 </table>
 <h3><a name="Recovery_Analysis">Recovery Analysis Report</a></h3>
@@ -700,11 +703,129 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <table class="summary_table">
 <tr>
 <td class="label">Slack:</td>
-<td>7.850</td>
+<td>6.520</td>
 </tr>
 <tr>
 <td class="label">Actual Width:</td>
-<td>9.100</td>
+<td>7.770</td>
+</tr>
+<tr>
+<td class="label">Required Width:</td>
+<td>1.250</td>
+</tr>
+<tr>
+<td class="label">Type:</td>
+<td>High Pulse Width</td>
+</tr>
+<tr>
+<td class="label">Clock:</td>
+<td>clk</td>
+</tr>
+<tr>
+<td class="label">Objects:</td>
+<td>led_s2</td>
+</tr>
+</table>
+<p><b>Late clock Path:</b></p>
+<table class="detail_table">
+<tr>
+<th class="label">AT</th>
+<th class="label">DELAY</th>
+<th class="label">TYPE</th>
+<th class="label">RF</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td></td>
+<td></td>
+<td>active clock edge time</td>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td></td>
+<td></td>
+<td>clk</td>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td>tCL</td>
+<td>RR</td>
+<td>clk_ibuf/I</td>
+</tr>
+<tr>
+<td>4.230</td>
+<td>4.230</td>
+<td>tINS</td>
+<td>RR</td>
+<td>clk_ibuf/O</td>
+</tr>
+<tr>
+<td>5.591</td>
+<td>1.361</td>
+<td>tNET</td>
+<td>RR</td>
+<td>led_s2/CLK</td>
+</tr>
+</table>
+<p><b>Early clock Path:</b></p>
+<table class="detail_table">
+<tr>
+<th class="label">AT</th>
+<th class="label">DELAY</th>
+<th class="label">TYPE</th>
+<th class="label">RF</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>10.000</td>
+<td>0.000</td>
+<td></td>
+<td></td>
+<td>active clock edge time</td>
+</tr>
+<tr>
+<td>10.000</td>
+<td>0.000</td>
+<td></td>
+<td></td>
+<td>clk</td>
+</tr>
+<tr>
+<td>10.000</td>
+<td>0.000</td>
+<td>tCL</td>
+<td>FF</td>
+<td>clk_ibuf/I</td>
+</tr>
+<tr>
+<td>12.140</td>
+<td>2.140</td>
+<td>tINS</td>
+<td>FF</td>
+<td>clk_ibuf/O</td>
+</tr>
+<tr>
+<td>13.361</td>
+<td>1.221</td>
+<td>tNET</td>
+<td>FF</td>
+<td>led_s2/CLK</td>
+</tr>
+</table>
+<h3>MPW2</h3>
+<p><b>MPW Summary:</b></p>
+<table class="summary_table">
+<tr>
+<td class="label">Slack:</td>
+<td>8.501</td>
+</tr>
+<tr>
+<td class="label">Actual Width:</td>
+<td>9.751</td>
 </tr>
 <tr>
 <td class="label">Required Width:</td>
@@ -719,7 +840,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk</td>
 </tr>
 <tr>
-<td class="label"> Objects:</td>
+<td class="label">Objects:</td>
 <td>led_s2</td>
 </tr>
 </table>
@@ -754,14 +875,14 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/I</td>
 </tr>
 <tr>
-<td>10.984</td>
-<td>0.984</td>
+<td>12.616</td>
+<td>2.616</td>
 <td>tINS</td>
 <td>FF</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
-<td>12.710</td>
+<td>14.341</td>
 <td>1.726</td>
 <td>tNET</td>
 <td>FF</td>
@@ -799,135 +920,17 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>clk_ibuf/I</td>
 </tr>
 <tr>
-<td>20.844</td>
-<td>0.844</td>
+<td>23.126</td>
+<td>3.126</td>
 <td>tINS</td>
 <td>RR</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
-<td>21.810</td>
+<td>24.092</td>
 <td>0.966</td>
 <td>tNET</td>
 <td>RR</td>
-<td>led_s2/CLK</td>
-</tr>
-</table>
-<h3>MPW2</h3>
-<p><b>MPW Summary:</b></p>
-<table class="summary_table">
-<tr>
-<td class="label">Slack:</td>
-<td>8.475</td>
-</tr>
-<tr>
-<td class="label">Actual Width:</td>
-<td>9.725</td>
-</tr>
-<tr>
-<td class="label">Required Width:</td>
-<td>1.250</td>
-</tr>
-<tr>
-<td class="label">Type:</td>
-<td>High Pulse Width</td>
-</tr>
-<tr>
-<td class="label">Clock:</td>
-<td>clk</td>
-</tr>
-<tr>
-<td class="label"> Objects:</td>
-<td>led_s2</td>
-</tr>
-</table>
-<p><b>Late clock Path:</b></p>
-<table class="detail_table">
-<tr>
-<th class="label">AT</th>
-<th class="label">DELAY</th>
-<th class="label">TYPE</th>
-<th class="label">RF</th>
-<th>NODE</th>
-</tr>
-<tr>
-<td>0.000</td>
-<td>0.000</td>
-<td></td>
-<td></td>
-<td>active clock edge time</td>
-</tr>
-<tr>
-<td>0.000</td>
-<td>0.000</td>
-<td></td>
-<td></td>
-<td>clk</td>
-</tr>
-<tr>
-<td>0.000</td>
-<td>0.000</td>
-<td>tCL</td>
-<td>RR</td>
-<td>clk_ibuf/I</td>
-</tr>
-<tr>
-<td>0.982</td>
-<td>0.982</td>
-<td>tINS</td>
-<td>RR</td>
-<td>clk_ibuf/O</td>
-</tr>
-<tr>
-<td>2.343</td>
-<td>1.361</td>
-<td>tNET</td>
-<td>RR</td>
-<td>led_s2/CLK</td>
-</tr>
-</table>
-<p><b>Early clock Path:</b></p>
-<table class="detail_table">
-<tr>
-<th class="label">AT</th>
-<th class="label">DELAY</th>
-<th class="label">TYPE</th>
-<th class="label">RF</th>
-<th>NODE</th>
-</tr>
-<tr>
-<td>10.000</td>
-<td>0.000</td>
-<td></td>
-<td></td>
-<td>active clock edge time</td>
-</tr>
-<tr>
-<td>10.000</td>
-<td>0.000</td>
-<td></td>
-<td></td>
-<td>clk</td>
-</tr>
-<tr>
-<td>10.000</td>
-<td>0.000</td>
-<td>tCL</td>
-<td>FF</td>
-<td>clk_ibuf/I</td>
-</tr>
-<tr>
-<td>10.847</td>
-<td>0.847</td>
-<td>tINS</td>
-<td>FF</td>
-<td>clk_ibuf/O</td>
-</tr>
-<tr>
-<td>12.068</td>
-<td>1.221</td>
-<td>tNET</td>
-<td>FF</td>
 <td>led_s2/CLK</td>
 </tr>
 </table>
@@ -967,40 +970,44 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <th class="label">ROUTE CONGESTIONS</th>
 </tr>
 <tr>
-<td>R1C2</td>
-<td>1.39%</td>
+<td>R2C2</td>
+<td>100.00%</td>
 </tr>
 <tr>
-<td>R1C19</td>
-<td>1.39%</td>
+<td>R2C7</td>
+<td>100.00%</td>
 </tr>
 <tr>
-<td>R11C20</td>
-<td>1.39%</td>
+<td>R2C9</td>
+<td>100.00%</td>
 </tr>
 <tr>
-<td>R19C5</td>
-<td>1.39%</td>
+<td>R2C10</td>
+<td>100.00%</td>
 </tr>
 <tr>
-<td>R11C13</td>
-<td>1.39%</td>
+<td>R2C26</td>
+<td>100.00%</td>
 </tr>
 <tr>
-<td>R11C21</td>
-<td>1.39%</td>
+<td>R3C22</td>
+<td>100.00%</td>
 </tr>
 <tr>
-<td>R11C5</td>
-<td>1.39%</td>
+<td>R5C14</td>
+<td>100.00%</td>
 </tr>
 <tr>
-<td>R1C13</td>
-<td>1.39%</td>
+<td>R8C34</td>
+<td>100.00%</td>
 </tr>
 <tr>
-<td>R1C21</td>
-<td>1.39%</td>
+<td>R17C2</td>
+<td>100.00%</td>
+</tr>
+<tr>
+<td>R16C37</td>
+<td>100.00%</td>
 </tr>
 </table>
 <h2><a name="Timing_Exceptions_Report">Timing Exceptions Report:</a></h2>

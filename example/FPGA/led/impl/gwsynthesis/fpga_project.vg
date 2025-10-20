@@ -1,10 +1,10 @@
 //
 //Written by GowinSynthesis
-//Product Version "GowinSynthesis V1.9.8.01"
-//Tue Feb 21 14:47:51 2023
+//Tool Version "V1.9.12 (64-bit)"
+//Tue Oct 21 00:04:33 2025
 
 //Source file index table:
-//file0 "\D:/Users/19021/Documents/fpga_project/src/led.v"
+//file0 "\C:/workspace/00_projects_git/T-FPGA/example/FPGA/led/src/led.v"
 `timescale 100 ps/100 ps
 module led (
   clk,
